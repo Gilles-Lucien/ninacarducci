@@ -2,7 +2,7 @@
 
 ## On page
 
-- Compression des images, conversion en webp et ajustement de leur taille à leur conteneur
+- Compression des images, conversion en webp et ajustement de leur taille à leur conteneur  //(note recherche srcset)
 - Ajout d'attributs alt aux balises img
 - Changement des noms des balises HTML (```<div> vers <main> <nav> <section> etc.```) 
 - Ajout de l'attribut "defer" aux balises scripts afin d'éviter le blocage de la génération de contenu
@@ -13,7 +13,7 @@
 
 ## À faire à l'export du code source 
 
-- Minifier le code
+- Minifier le code / cdn aller sur le site de bootstrap, appeler comme pour font awesome. / minifier via plugin VSCode
 
 ## À faire côté serveur 
 
