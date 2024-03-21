@@ -32,3 +32,9 @@
 Mon adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux.
 Mon numéro de téléphone : 05 56 67 78 89.
 Je réponds au téléphone du lundi au vendredi de 10h à 19h.
+
+
+# questions 
+
+- pourquoi score performances mobile différentes ?
+- que faire pour les optimisation côté serveur ?
