@@ -9,6 +9,7 @@
 - Amélioration du contraste entre le fond et le texte sur les boutons pour l'accessibilité
 - Ajout d'un attribut lang dans le HTML
 - Réorganisation de la hiérarchie de titres (h1, h2, etc.)
+- Images renommées pour optimisation SEO
 
 
 ## À faire à l'export du code source 
