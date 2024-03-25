@@ -9,6 +9,14 @@
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.bootstrap = factory());
 })(this, (function () { 'use strict';
 
+
+document.addEventListener('DOMContentLoaded', function () {
+  new LazyLoad({
+    elements_selector: 'img'
+  });
+});
+
+
   /**
    * --------------------------------------------------------------------------
    * Bootstrap (v5.1.3): util/index.js
