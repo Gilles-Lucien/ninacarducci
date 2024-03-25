@@ -3,11 +3,12 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link defer rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link defer rel="stylesheet" href="./assets/style.css">
-	<link defer rel="preconnect" href="https://fonts.googleapis.com">
-	<link defer rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link defer
+	<link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style"
+		onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="./assets/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
@@ -49,18 +50,19 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img 
-					src="./assets/images/slider/ryoji-iwata_412px.webp" 
-					class="d-block w-100"
-						alt="ryoji">
+					<img srcset="./assets/images/slider/ryoji-iwata_412px.webp 412w, ./assets/images/slider/ryoji-iwata.webp 1920w"
+						sizes="(max-width: 412px) 412px, 1920px" src="./assets/images/slider/ryoji-iwata_412px.webp"
+						class="d-block w-100" alt="ryoji">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/nicholas-green_412px.webp" class="d-block w-100"
-						alt="nicholas">
+					<img srcset="./assets/images/slider/nicholas-green_412px.webp 412w, ./assets/images/slider/nicholas-green.webp 1920w"
+						sizes="(max-width: 412px) 412px, 1920px" src="./assets/images/slider/nicholas-green_412px.webp"
+						class="d-block w-100" alt="nicholas">
 				</div>
 				<div class="carousel-item">
-					<img src="./assets/images/slider/edward-cisneros_412px.webp" class="d-block w-100"
-						alt="edward">
+					<img srcset="./assets/images/slider/edward-cisneros_412px.webp 412w, ./assets/images/slider/edward-cisneros.webp 1920w"
+						sizes="(max-width: 412px) 412px, 1920px" src="./assets/images/slider/edward-cisneros_412px.webp"
+						class="d-block w-100" alt="edward">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
